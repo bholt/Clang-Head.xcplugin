@@ -1,7 +1,7 @@
 # Custom Clang for Xcode
 I've configured this Xcode plugin to point to a custom version of Clang built from the source control version ("HEAD").
 
-The path to my clang install is hard-coded in Contents/Resources/Clang-Head.xcspec:
+The path to my clang install is hard-coded in [Contents/Resources/Clang-Head.xcspec](Contents/Resources/Clang-Head.xcspec):
 
     ExecPath = "/opt/llvm-head/bin/clang";
 
